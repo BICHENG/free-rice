@@ -1,0 +1,17 @@
+{
+  "$schema": "./config.schema.json",
+  "subscription": "",
+  "clashConfig": "",
+  "gatewayPort": 3425,
+  "routerPort": 7999,
+  "defaultModel": "opencode-zen-free/minimax-m3.1-flash-free",
+  "models": {
+    "minContextTokens": 200000,
+    "allow": [
+      "opencode-zen-free/deepseek-v4.1-flash-free"
+    ],
+    "deny": []
+  },
+  "notifications": "off",
+  "refreshHours": 0
+}
